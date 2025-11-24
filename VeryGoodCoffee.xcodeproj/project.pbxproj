@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66130BB62ED47865004B49B6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 66130BB52ED47865004B49B6 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		66130B982ED4778C004B49B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66130BB62ED47865004B49B6 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = VeryGoodCoffee;
 			packageProductDependencies = (
+				66130BB52ED47865004B49B6 /* Kingfisher */,
 			);
 			productName = VeryGoodCoffee;
 			productReference = 66130B8A2ED47782004B49B6 /* VeryGoodCoffee.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 66130B812ED47782004B49B6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				66130BB42ED47865004B49B6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 66130B8B2ED47782004B49B6 /* Products */;
 			projectDirPath = "";
@@ -570,6 +579,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66130BB42ED47865004B49B6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66130BB52ED47865004B49B6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66130BB42ED47865004B49B6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66130B822ED47782004B49B6 /* Project object */;
 }
